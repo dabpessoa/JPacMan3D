@@ -1,0 +1,16 @@
+#Materials exported from Google Sketchup
+
+newmtl _Material1
+Ka 0.000000 0.000000 0.000000
+Kd 0.698039 0.000000 0.015686
+Tr 0.00290196078431373
+Ks 0.000000 0.000000 0.000000
+Ns 3.200000
+
+
+newmtl Default_Material 
+Ka 0.000000 0.000000 0.000000
+Kd 1.0 1.0 1.0 
+Tr 1.0
+Ks 0.000000 0.000000 0.000000
+Ns 3.2

@@ -1,0 +1,31 @@
+#
+#
+# by Diego Pessoa [dabpessoa@gmail.com].
+#
+# Escolha o arquivo zipado de acordo com o seu sistema
+# operacional (32 ou 64 bits).
+#
+# Dentro do arquivo zipado escolhido existem bibliotecas
+# do java com a extensão ".jar" e também bibliotecas nativas
+# cujas extensões variam de acordo com o sistema operacinal.
+#
+# Abaixo seguem o passos necessário para rodar uma aplicação 3D
+# com JOGL no eclipse.
+# 
+#
+
+# Descompactando
+1) Escolha o arquivo compactado de acordo com o sistema operacional. E extraia os arquivos
+em algum local de sua preferência. Eu aconselho criar uma pasta dentro do projeto em questão para 
+as libs ficarem organizadas, no meu caso eu criei uma pasta dentro do meu projeto com o nome "jogllibs" e coloquei tudo lá.
+
+# Selecionar arquivos
+2) Copie os arquivos ".jar" (jogl.jar e gluegen-rt.jar) e as bibliotecas nativas (jogl, gluegen-rt, jogl_awt e jogl_cg) para a pasta escolhida.
+
+# Adicionar JARs
+3) No eclipse clique com o botão direito do mouse em cima do projeto e clique em propriedades. Após isso na lista que aparecerá escolha a opção "Java Build Path", clique na aba "Libraries" e em seguida localize o botão "Add JARs..." ou "Add External JARs...". Clique nesse botão e adicione os arquivos com a extensão ".jar" em seu projeto.
+
+# Adicionar libs nativas
+4) Agora vamos na aba "Source" do menu "Java Build Path", ou seja, ainda no local que estávamos e expandimos a árvore da pasta que aparecerá (geralmente essa pasta tem o nome do seu projeto + / + src = "projeto/src"). Clique em "Native library location" e depois no botão "Edit". Adicione o caminho onde estão a libs nativas.
+
+FIM.
