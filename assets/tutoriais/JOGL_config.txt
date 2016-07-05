@@ -1,7 +1,7 @@
 #
 #
 # by Diego Pessoa [dabpessoa@gmail.com].
-# www.diegopessoa.eu
+# www.dabpessoa.me
 #
 # Escolha o arquivo zipado de acordo com o seu sistema
 # operacional (32 ou 64 bits).
